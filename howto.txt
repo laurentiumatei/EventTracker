@@ -1,0 +1,5 @@
+How to set project in Eclipse
+ - Project Facets, Dynamic Web Module
+ - Right click on Tomcat Server, Properties, Switch Location
+ - Double click Tomcat Server, change Server Location to Use tomcat instalation
+ - Project, Properties, Deployment Assembly, Add, Project and External Dependencies
