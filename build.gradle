@@ -28,6 +28,10 @@ repositories {
 
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter-web')
+	compile(
+		'org.springframework.boot:spring-boot-starter-web',
+		'javax.validation:validation-api:1.1.0.Final',
+		'org.hibernate:hibernate-validator:5.0.3.Final'
+	)
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
