@@ -1,3 +1,14 @@
+How to create the Spring project in Eclipse:
+ - New, Other, Spring Starter Project
+ - Fill in: group as a package
+ - Check Web
+
+Create server:
+  - Right click on Servers
+  - New, Server, Tomcat 7 server
+  - Apply plugin war in build.gradle
+  - set in Project Facets, Dynamic Web Module
+
 How to set project in Eclipse
  - Project Facets, Dynamic Web Module
  - Right click on Tomcat Server, Properties, Switch Location
